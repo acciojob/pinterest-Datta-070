@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.hero{
+	display:inline-flex;
+	aligm-items:center;
+	flex-direction:row;
+}
+.hero>section{
+	display:flex;
+	flex-direction:column;
+	padding:5rem;
+	justify-content:center;
+	text-align:center;
+}
+img{
+	width:900px;
+}
+section>button {
+    padding: 8px;
+	border-radius:5px;
+    background: red;
+    color: white;
+    border: none;
+}
